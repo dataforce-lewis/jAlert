@@ -7,16 +7,13 @@
 */
 
 /* Resets */
-html, body {
-    min-height: 100%;
-}
 
 /*
 	 WRAPPER
 */
 .ja_wrap {
     position: fixed;
-    z-index: 99999;
+    z-index: 999;
     top: 0;
     left: 0;
     padding: 0;
@@ -132,7 +129,7 @@ body.ja_blur > *:not(.ja_wrap) {
     padding: 5px 10px 5px 10px;
     cursor: pointer;
     font-weight: bold;
-    z-index: 99999;
+    z-index: 999;
 }
 
 .ja_close_round, .ja_close_round_white {
@@ -214,7 +211,7 @@ body.ja_blur > *:not(.ja_wrap) {
 }
 
 .ja_title > div {
-    color: #505050;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 20px 10px 20px;
@@ -224,7 +221,7 @@ body.ja_blur > *:not(.ja_wrap) {
 	 THEMES
 */
 .ja_default {
-    background: #E0E0E0;
+    background: #4d7b96;
 }
 
 .ja_green {
